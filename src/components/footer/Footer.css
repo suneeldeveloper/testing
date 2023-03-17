@@ -3,7 +3,7 @@
   background: #e5e5e5;
   padding: 2% 7%;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
 .footer .footer_box {
@@ -12,7 +12,7 @@
 .footer .footer_box .footer_title {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 21px;
   color: #333333;
   margin-bottom: 15px;
@@ -25,18 +25,18 @@
   background: #ffffff;
   border: 1px solid #0e3860;
   border-radius: 4px;
-  padding: 9px;
+  padding: 15px;
   width: 100%;
   margin-bottom: 5px;
 }
 .footer_btn {
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
   background: #2695ff;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.15px;
   color: #ffffff;
@@ -48,14 +48,14 @@
 }
 
 .footer .box1 {
-  width: 250px;
+  width: 400px;
   border-right: 0.5px solid #707070;
   padding-right: 3rem;
 }
 .footer .footer_box .box_title {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 21px;
   color: #333333;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
 .footer .footer_box ul li {
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
   color: #333333;
   margin-bottom: 4px;
@@ -84,7 +84,7 @@
 
 
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 768px) {
   .footer {
     padding: 3% 5%;
     margin-top: 2rem;
