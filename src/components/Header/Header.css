@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    height: 45px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 0% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    background: #ffffff;
+  }
+  .social_links {
+    display: flex;
+    gap: 12px;
+  }
+  .social_links .icons {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+    background: #2695ff;
+  }
+  .social_links .icons i {
+    font-size: 13px;
+    color: #fafdff;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .contact .headerLogo {
+    width: 160px;
+  }
+  .contact .contact_details {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+  }
+  .contact .contact_details i {
+    color: #2695ff;
+  }
+  .contact .contact_details .cell_number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: -0.15px;
+    color: #0e3860;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding: 0 3%;
+    }
+    .contact .headerLogo {
+      display: none;
+    }
+    
+    .contact .contact_details .cell_number {
+      display: none;
+    }
+  }

@@ -1,0 +1,56 @@
+
+.cetegory {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    padding: 0% 7%;
+    margin-bottom: 2rem;
+  }
+  .cetegory .heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 19px;
+    letter-spacing: -0.15px;
+    color: #0e3860;
+  }
+  
+  .cetegory .cetegory_box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .cetegory .cetegory_box .cetegory_image {
+    width: 250px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .cetegory {
+      padding: 20% 5%;
+    }
+    .cetegory .heading {
+      font-size: 17px;
+    }
+  
+    .cetegory .cetegory_box .cetegory_image {
+      width: 100%;
+    }
+  }
