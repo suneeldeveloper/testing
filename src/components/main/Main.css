@@ -1,34 +1,48 @@
 .main {
-    background-image: url(../../assets//main.png);
-    position: relative;
-    width: 100%;
-    min-height: 600px;
-    background-size: cover;
-    background-position: center;
-    padding: 0 7%;
-    display: flex;
-    align-items: center;
+  background-image: url(../../assets//main.png);
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.main .secondry_btn {
+  width: 300px;
+  height: 55px;
+  background: #2695ff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.main .action_btn {
+  background: #f8b234;
+  color: #ba0c26;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background-image: url(../../assets/Header_mobile_version.png);
+    min-height: 320px;
+    align-items:flex-start;
+    padding: 20% 3%;
+    gap: 10px;
+    justify-content: center;
   }
-  
   .main .secondry_btn {
-    width: 300px;
-    height: 55px;
-    background: #2695ff;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    letter-spacing: -0.15px;
-    color: #ffffff;
-    margin-right: 10px;
-    cursor: pointer;
+    width: 170px;
+    height: 45px;
   }
-  .main .action_btn {
-    background: #f8b234;
-    color: #ba0c26;
-  }
-
-
+}

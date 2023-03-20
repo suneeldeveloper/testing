@@ -45,6 +45,7 @@
   }
   .contact .contact_details i {
     color: #2695ff;
+    font-size: 20px;
   }
   .contact .contact_details .cell_number {
     font-style: normal;
@@ -58,14 +59,15 @@
 
 
   @media only screen and (max-width: 768px) {
-    .header {
-      padding: 0 3%;
-    }
+ 
     .contact .headerLogo {
       display: none;
     }
     
     .contact .contact_details .cell_number {
       display: none;
+    }
+    .contact .contact_details i {
+      font-size: 20px;
     }
   }

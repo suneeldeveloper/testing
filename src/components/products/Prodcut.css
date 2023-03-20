@@ -1,8 +1,6 @@
 .products_cetegories {
     position: relative;
     width: 100%;
-    /* left: 0px; */
-    /* top: 480px; */
     padding: 3% 7%;
   }
   
@@ -130,4 +128,19 @@
     margin-top: 10px;
     text-transform: capitalize;
     cursor: pointer;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 468px){
+    .products_cetegories .product_box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+      position: relative;
+    }
   }

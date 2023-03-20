@@ -50,8 +50,11 @@
     .cetegory .heading {
       font-size: 17px;
     }
-  
+    .cetegory .cetegory_box {
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
     .cetegory .cetegory_box .cetegory_image {
       width: 100%;
     }
   }
+

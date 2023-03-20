@@ -27,7 +27,7 @@ const Navbar = () => {
         open={isOpen}
         onClose={toggleDrawer}
         direction="right"
-        className="bla bla bla"
+        className="bla bla bla responsive"
       >
         <div className="header_group">
           <div className="search_icon">

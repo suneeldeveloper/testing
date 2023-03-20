@@ -1,28 +1,16 @@
 import React from "react";
-import "./App.css";
-
-import Footer from "./components/footer/Footer";
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Main from "./components/main/Main";
-import Cetegory from "./components/cetegory/Cetegory";
-import Product from "./components/products/Product";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import SubCetegory from "./components/subCategory/SubCategory";
 
 const App = () => {
   return (
-    <>
-      <Header />
-
-      <Navbar />
-
-      <Main />
-
-      <Cetegory />
-
-      <Product />
-
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/subcatagory" element={<SubCetegory />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

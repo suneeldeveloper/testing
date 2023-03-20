@@ -73,14 +73,43 @@
   .toggle {
     display: block;
   }
-  .main_header {
-    padding: 0% 3%;
-    height: 55px;
 
-  }
   .main_header .header_group {
     display: none;
+    padding: 3rem;
   }
 
-  
+  .responsive {
+    padding: 2rem 1rem;
+  }
+
+  .responsive .search_icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.15px;
+    margin-bottom: 2rem;
+  }
+  .responsive .ad_button {
+    width: 120px;
+    height: 40px;
+    background: #34d8b3;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.15px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .responsive .login_text {
+    margin-bottom: 2rem;
+  }
 }
