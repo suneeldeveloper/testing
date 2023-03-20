@@ -1,11 +1,11 @@
 import React from "react";
 import "../../App.css";
-
+import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 import Header from "../Header/Header";
 import Navbar from "../Navbar/Navbar";
 import Main from "../main/Main";
-import Cetegory from "../cetegory/Cetegory";
+import Cetegory from "../product_category/product_Category";
 import Product from "../products/Product";
 
 const Home = () => {
@@ -16,8 +16,9 @@ const Home = () => {
       <Navbar />
 
       <Main />
-
-      <Cetegory />
+      <Link to='/subcategory'>
+        <Cetegory />
+      </Link>
 
       <Product />
 
